@@ -77,7 +77,7 @@ const Hero = () => (
       >
         <div className="relative mx-auto max-w-md lg:max-w-none">
           <div
-            className="absolute -inset-6 rounded-[2rem] bg-gradient-primary opacity-20 blur-2xl"
+            className="absolute -inset-6 rounded-4xl bg-gradient-primary opacity-20 blur-2xl"
             aria-hidden
           />
           <div className="relative rounded-3xl overflow-hidden shadow-elegant border border-border bg-card">
@@ -87,6 +87,7 @@ const Hero = () => (
               width={1024}
               height={1024}
               className="w-full h-auto"
+              loading="eager"
             />
           </div>
           <motion.div
