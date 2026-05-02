@@ -1,11 +1,12 @@
-'use client';
+"use client";
 
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import { WHATSAPP_LINK, BRAND_NAME } from "@/lib/constants";
+import { WHATSAPP_LINK } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import { WhatsappIcon } from "../icons/whatsapp-icon";
+import Image from "next/image";
 
 const links = [
   { href: "#problem", label: "Why" },
@@ -36,14 +37,14 @@ const Navbar = () => {
       )}
     >
       <div className="container flex items-center justify-between h-16">
-        <a
-          href="#top"
-          className="flex items-center gap-2 font-display font-bold text-lg"
-        >
-          <span className="h-8 w-8 rounded-lg bg-gradient-primary grid place-items-center text-primary-foreground text-sm">
-            V
-          </span>
-          <span>{BRAND_NAME}</span>
+        <a href="#top" className="flex shrink-0 items-center py-2">
+          <Image
+            src="/vic-logo-transparent-preview.png"
+            alt="VIC Institute"
+            height={40}
+            width={100}
+            className="h-auto w-full max-w-35 sm:max-w-45 md:max-w-55"
+          />
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
           {links.map((l) => (

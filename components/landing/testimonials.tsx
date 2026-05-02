@@ -7,21 +7,21 @@ const testimonials = [
     country: "Nigeria",
     band: "7.0",
     quote:
-      "The structure made all the difference. I knew exactly what to focus on each week, and the writing feedback transformed my Task 2 essays. Hit my Band 7.0 on the first attempt.",
+      "I achieved an overall Band 7.0 on my first attempt, exceeding the benchmark for my program, thanks to VIC Institute’s lessons",
   },
   {
     name: "Fara",
     country: "Cyprus",
     band: "8.0",
     quote:
-      "I had only two weeks before my exam. The strategies I learned for Reading and Listening alone pushed me from a 6.5 to an 8.0 — I still can't believe it.",
+      "I achieved an overall Band 8.0 after just 2 weeks of 1-on-1 sessions with Coach Isaac Victor. I’m very grateful I registered!",
   },
   {
     name: "Serena",
     country: "Nigeria",
     band: "7.5",
     quote:
-      "Reading was always my weakest. The technique training gave me a complete breakthrough — I now finish all passages with time to check my answers.",
+      "After several unsuccessful attempts, I finally succeeded in IELTS Reading and achieved my target result. I'm absolutely thrilled!",
   },
 ];
 

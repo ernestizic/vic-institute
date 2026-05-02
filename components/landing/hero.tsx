@@ -82,7 +82,7 @@ const Hero = () => (
           />
           <div className="relative rounded-3xl overflow-hidden shadow-elegant border border-border bg-card">
             <Image
-              src="/hero-student.jpg"
+              src="/vic-logo.jpeg"
               alt="Confident IELTS student achieving Band 7.5"
               width={1024}
               height={1024}
