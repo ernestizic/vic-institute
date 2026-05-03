@@ -14,17 +14,6 @@ type Plan = {
 
 const plans: Plan[] = [
   {
-    name: "Live Online Classes",
-    price: "₦25,000",
-    duration: "/ 3 weeks",
-    features: [
-      "Real-time teaching",
-      "Interactive sessions",
-      "All 4 modules",
-      "Q&A with instructor",
-    ],
-  },
-  {
     name: "Recorded Full Course",
     price: "₦20,000",
     duration: "lifetime access",
@@ -33,6 +22,17 @@ const plans: Plan[] = [
       "Watch anywhere, anytime",
       "Full module library",
       "Practice materials included",
+    ],
+  },
+  {
+    name: "Live Online Classes",
+    price: "₦25,000",
+    duration: "/ 3 weeks",
+    features: [
+      "Real-time teaching",
+      "Interactive sessions",
+      "All 4 modules",
+      "Q&A with instructor",
     ],
   },
   {
