@@ -26,7 +26,7 @@ const plans: Plan[] = [
   },
   {
     name: "Live Online Classes",
-    price: "₦25,000",
+    price: "₦30,000",
     duration: "/ 3 weeks",
     features: [
       "Real-time teaching",
